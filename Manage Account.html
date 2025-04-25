@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manage User Accounts - Admin Panel</title>
+  <link rel="stylesheet" href="./css/Manage Account.css" />
+</head>
+<body>
+  <div class="admin-container">
+    <h1>Manage User Accounts</h1>
+
+    <div class="filters">
+      <input type="text" placeholder="Search by name or email" />
+      <select>
+        <option value="">All Roles</option>
+        <option value="jobseeker">Job Seeker</option>
+        <option value="employer">Employer</option>
+      </select>
+      <select>
+        <option value="">All Statuses</option>
+        <option value="active">Active</option>
+        <option value="deactivated">Deactivated</option>
+      </select>
+    </div>
+
+    <table class="user-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jane Doe</td>
+          <td>jane@example.com</td>
+          <td>Job Seeker</td>
+          <td><span class="status active">Active</span></td>
+          <td><button class="deactivate">Deactivate</button></td>
+        </tr>
+        <tr>
+          <td>John Smith</td>
+          <td>john@company.com</td>
+          <td>Employer</td>
+          <td><span class="status deactivated">Deactivated</span></td>
+          <td><button class="activate">Activate</button></td>
+        </tr>
+        <!-- More users -->
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

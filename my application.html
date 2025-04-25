@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JobHub | My Applications</title>
+  <link rel="stylesheet" href="/css/my application.css" />
+</head>
+<body>
+  <header class="main-header">
+    <h1>My Applications</h1>
+    <p>Track your job applications and saved opportunities</p>
+  </header>
+
+  <section class="applications-section">
+    <div class="search-filter">
+      <input type="text" placeholder="Search jobs..." />
+      <select>
+        <option value="">Filter by Status</option>
+        <option value="pending">Pending</option>
+        <option value="reviewed">Reviewed</option>
+        <option value="interview">Interview</option>
+        <option value="rejected">Rejected</option>
+        <option value="hired">Hired</option>
+      </select>
+    </div>
+
+    <div class="application-card">
+      <div class="job-info">
+        <div>
+          <h3>Frontend Developer</h3>
+          <p>TechCorp Ltd. - Remote</p>
+          <p><strong>Status:</strong> Interview Scheduled</p>
+        </div>
+      </div>
+      <div class="card-actions">
+        <button class="btn-view">View Details</button>
+        <button class="btn-withdraw">Withdraw</button>
+      </div>
+    </div>
+
+    <!-- Add more application-card divs here -->
+
+    <div class="empty-state">
+      <p>You haven't applied to any jobs yet. <a href="Explore jobs.html">Explore jobs</a> now.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JobHub. All rights reserved.</p>
+  </footer>
+</body>
+</html>

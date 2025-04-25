@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Jobs - JobHub</title>
+  <link rel="stylesheet" href="./css/Search Jobs.css">
+</head>
+<body>
+  <header class="explore-header">
+    <h1>Featured Jobs</h1>
+  </header>
+
+  <section class="search-section">
+    <input type="text" placeholder="Search job title, keywords, or company" />
+    <select>
+      <option value="">Job Type</option>
+      <option>Full-Time</option>
+      <option>Part-Time</option>
+      <option>Remote</option>
+    </select>
+    <select>
+      <option value="">Location</option>
+      <option>USA</option>
+      <option>UK</option>
+      <option>Canada</option>
+    </select>
+    <button>Search</button>
+  </section>
+
+  <section class="job-listings">
+    <div class="job-card">
+      <img src="./images/logo1.png" alt="Company Logo" class="company-logo">
+      <div class="job-details">
+        <h3>Frontend Developer</h3>
+        <p>Company: TechNova</p>
+        <p>Location: New York, USA</p>
+        <p>Type: Full-Time</p>
+        <p>Salary: $70,000/year</p>
+      </div>
+      <div class="card-actions">
+        <a href="#" class="btn-view">View</a>
+        <button class="btn-save">Save</button>
+      </div>
+    </div>
+
+    <div class="job-card">
+      <img src="./images/logo2.png" alt="Company Logo" class="company-logo">
+      <div class="job-details">
+        <h3>UI/UX Designer</h3>
+        <p>Company: CreativeBits</p>
+        <p>Location: Remote</p>
+        <p>Type: Part-Time</p>
+        <p>Salary: $40/hour</p>
+      </div>
+      <div class="card-actions">
+        <a href="#" class="btn-view">View</a>
+        <button class="btn-save">Save</button>
+      </div>
+    </div>
+
+    <div class="job-card">
+      <img src="./images/logo3.png" alt="Company Logo" class="company-logo">
+      <div class="job-details">
+        <h3>Backend Engineer</h3>
+        <p>Company: CodeWorks</p>
+        <p>Location: London, UK</p>
+        <p>Type: Full-Time</p>
+        <p>Salary: £60,000/year</p>
+      </div>
+      <div class="card-actions">
+        <a href="#" class="btn-view">View</a>
+        <button class="btn-save">Save</button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

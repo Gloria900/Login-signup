@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobHub | My Profile</title>
+  <link rel="stylesheet" href="/css/my profile.css">
+</head>
+<body>
+  <header class="main-header">
+    <h1>My Profile</h1>
+    <p>Manage and update your personal and professional details</p>
+  </header>
+
+  <section class="profile-section">
+    <form action="#" method="post" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label>Full Name: <input type="text" name="fullname" required></label>
+        <label>Email: <input type="email" name="email" required></label>
+        <label>Phone: <input type="tel" name="phone"></label>
+        <label>Location: <input type="text" name="location"></label>
+        <label>Profile Photo: <input type="file" name="profilePhoto" accept="image/*"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Resume</legend>
+        <label>Upload Resume: <input type="file" name="resume" accept=".pdf,.doc,.docx"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Education</legend>
+        <label>Degree: <input type="text" name="degree"></label>
+        <label>Institution: <input type="text" name="institution"></label>
+        <label>Year: <input type="text" name="gradYear"></label>
+        <label>Certifications: <input type="text" name="certifications"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Work Experience</legend>
+        <label>Job Title: <input type="text" name="jobTitle"></label>
+        <label>Company Name: <input type="text" name="company"></label>
+        <label>Duration: <input type="text" name="duration"></label>
+        <label>Responsibilities: <textarea name="responsibilities"></textarea></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Skills</legend>
+        <label>Skills (comma-separated): <input type="text" name="skills"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Job Preferences</legend>
+        <label>Desired Job Title: <input type="text" name="desiredTitle"></label>
+        <label>Preferred Job Type:
+          <select name="jobType">
+            <option value="">Select</option>
+            <option value="full-time">Full-time</option>
+            <option value="part-time">Part-time</option>
+            <option value="remote">Remote</option>
+          </select>
+        </label>
+        <label>Industry: <input type="text" name="industry"></label>
+        <label>Expected Salary: <input type="text" name="salary"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Info</legend>
+        <label>Portfolio/LinkedIn: <input type="url" name="portfolio"></label>
+        <label>Summary: <textarea name="summary"></textarea></label>
+        <label>Languages: <input type="text" name="languages"></label>
+        <label>Availability: <input type="text" name="availability"></label>
+      </fieldset>
+
+      <button type="submit">Save Profile</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JobHub. All rights reseverd.</p>
+  </footer>
+</body>
+</html>

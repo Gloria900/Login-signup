@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore Jobs - JobHub</title>
+  <link rel="stylesheet" href="./css/Explore jobs.css" />
+</head>
+<body>
+  <header class="explore-header">
+    <h1>Explore Jobs</h1>
+    <p>Find your next opportunity</p>
+  </header>
+
+  <section class="filters">
+    <input type="text" placeholder="Search job titles or keywords..." />
+    <select>
+      <option value="">Location</option>
+      <option value="remote">Remote</option>
+      <option value="lagos">Lagos</option>
+      <option value="abuja">Abuja</option>
+    </select>
+    <select>
+      <option value="">Job Type</option>
+      <option value="full-time">Full-time</option>
+      <option value="part-time">Part-time</option>
+      <option value="freelance">Freelance</option>
+    </select>
+    <select>
+      <option value="">Salary Range</option>
+      <option value="0-50000">₦0 - ₦50,000</option>
+      <option value="50000-100000">₦50,000 - ₦100,000</option>
+      <option value="100000+">₦100,000+</option>
+    </select>
+  </section>
+
+  <section class="job-listings">
+    <div class="job-card">
+      <div class="job-details">
+        <h3>Backend Developer</h3>
+        <p><strong>Company:</strong> TechSoft Ltd.</p>
+        <p><strong>Location:</strong> Remote</p>
+        <p><strong>Type:</strong> Full-time</p>
+        <p><strong>Salary:</strong> ₦150,000</p>
+      </div>
+      <div class="card-actions">
+        <a href="job-details.html" class="btn-view">View Details</a>
+        <button class="btn-save">Save</button>
+      </div>
+    </div>
+
+    <!-- More job-card blocks can be added here -->
+
+    <div class="pagination">
+      <button>Previous</button>
+      <button>Next</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JobHub. All rights reserved.</p>
+  </footer>
+</body>
+</html>

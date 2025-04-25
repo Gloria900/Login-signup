@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .explore-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .explore-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  /* Search Section */
+  .search-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .search-section input,
+  .search-section select,
+  .search-section button {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-section button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Job Listings */
+  .job-listings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Job Card */
+  .job-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.1);
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .company-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .job-details {
+    flex: 1;
+  }
+  
+  .job-details h3 {
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .job-details p {
+    margin-bottom: 4px;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .card-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .card-actions a,
+  .card-actions button {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: center;
+  }

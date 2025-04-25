@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .manage-jobs-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 255, 0.1);
+  }
+  
+  .manage-jobs-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #2b2d42;
+  }
+  
+  .job-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .job-table th,
+  .job-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .job-table th {
+    background-color: #2e86de;
+    color: white;
+  }
+  
+  .edit,
+  .delete {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .edit {
+    background-color: #f0ad4e;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .delete {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .edit:hover {
+    background-color: #ec971f;
+  }
+  
+  .delete:hover {
+    background-color: #c9302c;
+  }
+
+  .footer {
+    position: relative;
+    display: inline-block;
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #5a5757;
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    display: flex;
+    position: relative;
+    float: left;
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+    border : 2px solid white; /* Optional: add a border */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Optional: add a shadow */
+
+  }
+  
+  @media (max-width: 768px) {
+    .job-table th,
+    .job-table td {
+      font-size: 0.85rem;
+      padding: 10px;
+    }
+  
+    .edit,
+    .delete {
+      font-size: 0.8rem;
+      padding: 6px 10px;
+    }
+  }

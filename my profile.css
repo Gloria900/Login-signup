@@ -1,0 +1,101 @@
+/* profile.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('/assets/image/Jobconnect.png1.webp');
+    background-size: cover;
+  }
+  
+  header.main-header {
+    background-color: #004080;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .profile-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  form fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  form legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #004080;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.8rem;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007acc;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2ba300;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  @media (max-width: 600px) {
+    .profile-section {
+      padding: 1rem;
+    }
+  
+    form input,
+    form select,
+    form textarea {
+      font-size: 0.95rem;
+    }
+  
+    button[type="submit"] {
+      width: 100%;
+    }
+  }

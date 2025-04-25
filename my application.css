@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .main-header {
+    background-color: #661a00;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .applications-section {
+    padding: 2rem;
+  }
+  
+  .search-filter {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .application-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 51, 102, 0.1);
+  }
+  
+  .company-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+  }
+  
+  .job-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .card-actions button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-view {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-withdraw {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .empty-state {
+    text-align: center;
+    color: #666;
+  }
+
+  footer p {
+    text-align: center;
+  }
